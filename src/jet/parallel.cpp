@@ -16,6 +16,8 @@ void setMaxNumberOfThreads(unsigned int numThreads) {
     sMaxNumberOfThreads = std::max(numThreads, 1u);
 }
 
-unsigned int maxNumberOfThreads() { return sMaxNumberOfThreads; }
+unsigned int maxNUmberOfThreads() {
+    return sMaxNumberOfThreads;
+}
 
 }  // namespace jet
